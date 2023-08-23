@@ -35,28 +35,34 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: 'Graduated bootcamp',
-        location: 'Miami, FL',
+        title: 'Senior Software Engineer',
+        location: 'Redwood City, Ca',
         description:
-            'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-        icon: React.createElement(LuGraduationCap),
-        date: '2019',
+            'I worked at Reputation as a Senior Front-end Engineer, as well as building multiple back-end services. Experience with React, Node.js, Express, MongoDB, Python, Go, Java Spring Boot',
+        icon: React.createElement(FaReact),
+        date: '2017 - present',
     },
     {
-        title: 'Front-End Developer',
-        location: 'Orlando, FL',
-        description:
-            'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+        title: 'Technical Support Engineer',
+        location: 'San Francisco, Ca',
+        description: 'Minted',
         icon: React.createElement(CgWorkAlt),
         date: '2019 - 2021',
     },
     {
-        title: 'Full-Stack Developer',
-        location: 'Houston, TX',
+        title: 'Live Operations Lead',
+        location: 'San Francisco, Ca',
+        description: 'PennyPop',
+        icon: React.createElement(LuGraduationCap),
+        date: '2019',
+    },
+    {
+        title: 'Graduated University of California San Diego',
+        location: 'La Jolla, Ca',
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: '2021 - present',
+            'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+        icon: React.createElement(LuGraduationCap),
+        date: '2010-2012',
     },
 ] as const;
 
